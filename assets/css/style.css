@@ -2,6 +2,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -346,6 +348,23 @@ h6 {
   font-size: 18px;
   font-weight: 530;
 }
+
+.green-button {
+  background-color: green;
+  color: white; 
+  height: 25px; /* Adjust this value to reduce the height */
+  line-height: 40px; /* Center the text vertically */
+  padding: 0 20px; /* Add padding to the sides for better spacing */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Ensure inline display */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Optional: Hover effect */
+.green-button:hover {
+  opacity: 0.8;
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
