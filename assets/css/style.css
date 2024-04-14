@@ -349,22 +349,6 @@ h6 {
   font-weight: 530;
 }
 
-.green-button {
-  background-color: green;
-  color: white; 
-  height: 40px; /* Adjust this value to reduce the height */
-  line-height: 40px; /* Center the text vertically */
-  padding: 0 20px; /* Add padding to the sides for better spacing */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Ensure inline display */
-  border-radius: 5px; /* Add rounded corners */
-}
-
-/* Optional: Hover effect */
-.green-button:hover {
-  opacity: 0.8;
-}
-
 
 /*--------------------------------------------------------------
 # Sections General
