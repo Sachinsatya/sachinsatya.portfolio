@@ -352,7 +352,7 @@ h6 {
 .green-button {
   background-color: green;
   color: white; 
-  height: 25px; /* Adjust this value to reduce the height */
+  height: 40px; /* Adjust this value to reduce the height */
   line-height: 40px; /* Center the text vertically */
   padding: 0 20px; /* Add padding to the sides for better spacing */
   text-decoration: none; /* Remove underline */
