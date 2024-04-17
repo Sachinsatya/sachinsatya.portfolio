@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio
-* Updated: Nov 17 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -269,17 +262,3 @@ const portfolioDetailsLightbox = GLightbox({
   new PureCounter();
 
 })()
-
-
-<script>
-  // Simulate click on "About Me" menu item when the page loads
-  document.addEventListener("DOMContentLoaded", function() {
-    var aboutMenuItem = document.querySelector('.nav-link[href="#about"]');
-    
-    // Check if the "About Me" menu item exists
-    if (aboutMenuItem) {
-      aboutMenuItem.click(); // Simulate click event
-    }
-  });
-</script>
-
