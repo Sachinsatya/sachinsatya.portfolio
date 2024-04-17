@@ -269,3 +269,17 @@ const portfolioDetailsLightbox = GLightbox({
   new PureCounter();
 
 })()
+
+
+<script>
+  // Simulate click on "About Me" menu item when the page loads
+  document.addEventListener("DOMContentLoaded", function() {
+    var aboutMenuItem = document.querySelector('.nav-link[href="#about"]');
+    
+    // Check if the "About Me" menu item exists
+    if (aboutMenuItem) {
+      aboutMenuItem.click(); // Simulate click event
+    }
+  });
+</script>
+
