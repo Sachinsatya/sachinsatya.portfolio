@@ -1005,15 +1005,30 @@
       </div>
 
 
-      <body>
-          
-          <!-- Embed the provided script here -->
-          <script src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js" user-profile="https://topmate.io/embed/profile/sachin_mm?theme=93C5F9" btn-style='{"backgroundColor":"transparent","color":"#fff","border":"2px solid #149ddd","borderRadius":"50%","width":"40px","height":"40px","fontSize":"24px","padding":"0px"}' embed-version="v1" button-text="📞" position-right="30px" position-bottom="30px" custom-padding="0px" custom-font-size="25px" custom-font-weight="700" async="" defer=""></script>
-      
-          <!-- Your other scripts and footer content -->
-      
-      </body>
-      
+    <body>
+          <style>
+          /* Adjust button size based on screen width */
+          @media only screen and (max-width: 600px) {
+            .topmate-button {
+              width: 40px;
+              height: 40px;
+              font-size: 16px;
+            }
+          }
+          @media only screen and (min-width: 601px) {
+            .topmate-button {
+              width: 60px;
+              height: 60px;
+              font-size: 24px;
+            }
+          }
+        </style>
+        
+        <!-- Embed script with dynamic button class -->
+        <script src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js" user-profile="https://topmate.io/embed/profile/sachin_mm?theme=93C5F9" btn-style='{"backgroundColor":"transparent","color":"#fff","border":"2px solid #149ddd","borderRadius":"50%","fontSize":"inherit","padding":"0px"}' embed-version="v1" button-text="📞" class="topmate-button" position-right="5vw" position-bottom="5vh" custom-padding="0px" custom-font-size="25px" custom-font-weight="700" async="" defer=""></script>
+        
+    </body>
+              
 
 
         
